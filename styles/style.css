@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color__item{
+    cursor: pointer;
+}
+
+.color__body{
+    cursor: pointer;
+}
+
+.items{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.colors__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, black, transparent);
+    height: 350px;
+    width: 100px;
+    border-radius: 7%;
+    margin-top: 15px;
+    margin-left: 15px;                 
+    row-gap: 10px;
+
+}
+
+.colors__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(-45deg, black, transparent);
+    height: 350px;
+    width: 100px;
+    border-radius: 7%;
+    margin-top: 15px;
+    margin-left: 15px;
+    row-gap: 10px;
+}
+
+.color__body-1{
+    width: 50px;
+    height: 50px;
+    background: green;
+    border-radius: 7%;
+}
+
+.color__body-2 {
+    width: 50px;
+    height: 50px;
+    background: purple;
+    border-radius: 7%;
+}
+
+.color__body-3 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 7%;
+}
+
+.color__body-4 {
+    width: 50px;
+    height: 50px;
+    background: brown;
+    border-radius: 7%;
+}
+
+.color__body-5 {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 7%;
+}
+
+.color__body:hover{
+    cursor: pointer;
+}
+
+.color__item:hover{
+    cursor: pointer;
+}
+
+.color__item:first-of-type {
+    width: 50px;
+    height: 50px;
+    background: palegreen;
+    border-radius: 7%;
+}
+
+.color__item:nth-of-type(2) {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 7%;
+}
+
+.color__item:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+    border-radius: 7%;
+}
+
+.color__item:nth-of-type(4) {
+    width: 50px;
+    height: 50px;
+    background: burlywood;
+    border-radius: 7%;
+}
+
+.color__item:nth-of-type(5) {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 7%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.item {
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    border-radius: 7%;
+}
